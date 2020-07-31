@@ -96,13 +96,17 @@ wget -N https://github.com/oscar65993099/fclone_shell_bot/raw/master/fclone/fclo
   <details>
 <summary>步骤三：安装config配置</summary>
 配备config 
+
 ```
 !unzip -o -q /root/fclone_shell_bot/config.zip -d /root
 ```
+
 修改配置
+
 ```
 !fclone config
 ```
+
 </details>
   
 **以上，基本把安装的事说明白了，还不明白的话，建议去看[原作者教程](https://github.com/botgram/shell-bot)或者[本脚本的上一版教程](https://github.com/oscar65993099/fclone_shell_bot/blob/master/help/Manual_README.md)
