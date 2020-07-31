@@ -1,6 +1,6 @@
 #!/bin/bash
 #=============================================================
-# https://github.com/cgkings/fclone_shell_bot
+# https://github.com/oscar65993099/fclone_shell_bot
 # File Name: fc_shellbot.sh
 # Author: cgking
 # Created Time : 2020.7.8--2020.7.12
@@ -61,7 +61,7 @@ install_clone() {
     cd ~
     curl https://rclone.org/install.sh | sudo bash -s beta
     wget -qO- https://git.io/gclone.sh
-    wget -N https://github.com/cgkings/fclone_shell_bot/raw/master/fclone/fclone.zip
+    wget -N https://github.com/oscar65993099/fclone_shell_bot/raw/master/fclone/fclone.zip
     unzip fclone.zip
     mv fclone /usr/bin
     chmod +x /usr/bin/fclone
