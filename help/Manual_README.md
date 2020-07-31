@@ -2,8 +2,8 @@
 
 `shellbot`可以在TG上调动运行VPS命令，本脚本仅是shellbot的一种google drive转存应用，当然转存工具很重要，`fclone`,400 fils/s，没错，速度论文件的，尽管还有其他优点，但是一个速度，已经能对得起它的名字fxxk clone，天下武功，为快不破，你用fclone，其他clone只能看到你的背影。
 
-<img src="https://github.com/cgkings/gclone_shell_bot/blob/master/images/bot.gif" height="470px">
-
+<img src="https://github.com/oscar65993099/fclone_shell_bot/blob/master/images/bot.gif" height="470px">
+https://github.com/oscar65993099/fclone_shell_bot/blob/master/images/bot.gif
 **注意:** 暂时不支持windows.
 ## 安装步骤：<hr />
 <details>
@@ -29,7 +29,7 @@ sudo apt install -y make python build-essential
 <summary>步骤二：克隆库</summary>
 
 ```git
-git clone https://github.com/cgkings/gclone_shell_bot.git && cd /root/gclone_shell_bot
+git clone https://github.com/oscar65993099/fclone_shell_bot.git && cd /root/gclone_shell_bot
 npm install
 ```
 
@@ -82,7 +82,7 @@ forever start /path/to/shell-bot/server.js
 [fclone发布地址页](https://github.com/mawaya/rclone) <br>
 一键安装命令：<br>
 ```
-wget https://raw.githubusercontent.com/cgkings/fclone_shell_bot/master/fclone/fclone.zip && unzip fclone.zip && mv fclone /usr/bin && chmod +x /usr/bin/fclone && fclone version
+wget https://raw.githubusercontent.com/oscar65993099/fclone_shell_bot/master/fclone/fclone.zip && unzip fclone.zip && mv fclone /usr/bin && chmod +x /usr/bin/fclone && fclone version
 ```
 
 作者是TG上的@fxxkrlab（F佬）和@Ip2N5M（K佬），都是很热心的人，小白的福音，欢迎大家去TG上骚扰他们，他们非常渴望你们的小白问题！
