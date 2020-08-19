@@ -227,7 +227,7 @@ echo && echo -e " fclone shell bot 终结版 ${Red_font_prefix}[v${sh_ver}]${Fon
  ${Green_font_prefix} 15.${Font_color_suffix} 修改 脚本转存参数ini
  ———————————————————————
  ${Green_font_prefix} 16.${Font_color_suffix} 退出 脚本" && echo 
-read -t 2 -n1 -p " 请输入数字 [0-16]:" num
+read -t 3 -n1 -p " 请输入数字 [0-16]:" num
 num=${num:-3}
 case "$num" in
 0)
